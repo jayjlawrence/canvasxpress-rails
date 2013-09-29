@@ -20,15 +20,15 @@ Or install it yourself as:
 
 Add the canvasXpress js to your rails app by adding
 
- //= require canvasXpress.min
+    //= require canvasXpress.min
 
 to app/assets/javascripts/application.js (or other as you wish)
 
 And
 
- /* 
-  * require canvasXpress
-  */
+    /* 
+     * require canvasXpress
+     */
 
 to app/assets/stylesheets/application.css 
 
