@@ -8,15 +8,14 @@ Gem::Specification.new do |spec|
   spec.version       = Canvasxpress::Rails::VERSION
   spec.authors       = ["Jay Lawrence"]
   spec.email         = ["jay@patientway.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = %q{Use canvasXpress with Rails}
+  spec.summary       = %q{This gem provides canvasXpress 7.1 assets}
   spec.homepage      = ""
   spec.license       = "MIT"
 
-  spec.files         = `git ls-files`.split($/)
-  spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
-  spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
+  spec.files         = Dir["{lib,vendor}/**/*"] + ["LICENSE.txt", "README.md"]
   spec.require_paths = ["lib"]
+  spec.add_dependency             "railties", "~> 3.1"
 
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"

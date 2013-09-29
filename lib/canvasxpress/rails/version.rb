@@ -1,5 +1,5 @@
 module Canvasxpress
   module Rails
-    VERSION = "0.0.1"
+    VERSION = "7.1.0"
   end
 end

@@ -1,6 +1,6 @@
 # Canvasxpress::Rails
 
-TODO: Write a gem description
+Packaging of canvasXpress for Rails
 
 ## Installation
 
@@ -18,7 +18,10 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Add the canvasXpress js to your rails app by:
+
+echo '//= require canvasXpress.min' >> app/assets/javascripts/application.js
+# echo '//= require canvasXpress' >> app/assets/stylesheets/application.css 
 
 ## Contributing
 

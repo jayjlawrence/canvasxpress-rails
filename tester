@@ -1,4 +1,4 @@
-./maker
+# ./build.me
 rm -rf canvasxpress-test
 rails new canvasxpress-test
 cd canvasxpress-test
@@ -7,9 +7,9 @@ rake db:migrate
 echo 'gem "canvasxpress-rails", :path => "~/Projects/canvasxpress-rails"' >> Gemfile
 bundle install
 echo '//= require canvasXpress.min' >> app/assets/javascripts/application.js
-echo '//= require canvasXpress' >> app/assets/stylesheets/application.css
+# echo '//= require canvasXpress' >> app/assets/stylesheets/application.css
 cp ../tester.html app/views/testers/index.html.erb
 
+(sleep 5; open http://localhost:3000/testers) &
 rails server
-# open http://localhost:3000/assets/canvasxpress
 

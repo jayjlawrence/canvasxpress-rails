@@ -43,6 +43,63 @@ div.cxc {
   white-space: nowrap;
   overflow: hidden;
 }
+/* Save Form div */
+div.CanvasXpressSaveForm{
+  border: 1px solid rgb(113,139,183);
+  border-radius: 5px;
+  background-color: rgb(240,240,240);
+  color: rgb(34,34,34);
+  font: normal 11px arial, tahoma, sans-serif;
+  margin: 8px;
+  padding: 8px;
+  position: absolute;
+  white-space: nowrap;
+}
+/* Code div */
+div.CanvasXpressCode {
+  border: 1px solid rgb(113,139,183);
+  border-radius: 5px;
+  background-color: rgb(240,240,240);
+  cursor: move;
+  color: rgb(34,34,34);
+  font: normal 11px arial, tahoma, sans-serif;
+  margin: 2px 3px;
+  padding: 2px 3px;
+  position: absolute;
+  white-space: nowrap;
+}
+img.CanvasXpressCode {
+  cursor: default;
+  float: right;
+  height: 13px;
+  margin: 2px 3px 0px 0px;
+  padding-bottom: 5px;
+  width: 13px;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+  -user-select: none;
+}
+div.CanvasXpressCodeContainer {
+  background-color: rgb(240,240,240);
+  clear: both;
+  max-height: 500px;
+  max-width: 600px;
+  overflow: auto;
+}
+div.CanvasXpressCodeContent {
+  background-color: rgb(240,240,240);
+  margin: 2px 3px;
+  padding: 2px 3px;
+}
+pre.CanvasXpressCodeContent {
+  background-color: rgb(240,240,240);
+  border: none;
+  margin: 0px;
+  padding: 10px;
+  white-space: pre;
+}
 /* Dragging div */
 div.CanvasXpressDrag {
   opacity: 0.5;
@@ -129,7 +186,6 @@ img.CanvasXpressDataTableToolbarImage {
   height: 13px;
   margin: 2px 3px 0px 0px;
   width: 13px;
-  cursor: default;
   -moz-user-select: none;
   -khtml-user-select: none;
   -webkit-user-select: none;
@@ -400,6 +456,25 @@ input.CanvasXpressConfiguratorFilter {
   border: 1px solid rgb(113,139,183);
   font: normal 11px arial, tahoma, sans-serif;
   line-height: 16px;
+}
+div.CanvasXpressConfiguratorExample {
+  background-color: rgb(240,240,240);
+  border-radius: 5px;
+  border: 1px solid rgb(113,139,183);
+  box-shadow: rgba(154,154,154,0.2) 3px 3px;
+  color: rgb(34,34,34);
+  font: normal 11px arial, tahoma, sans-serif;
+  line-height: 16px;
+}
+span.CanvasXpressConfiguratorExample{
+  cursor: default;
+  font: normal 11px arial,tahoma,sans-serif;
+  line-height: 16px;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+  -user-select: none;
 }
 div.CanvasXpressConfiguratorColor {
   border: 1px solid rgb(113,139,183);
