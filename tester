@@ -1,0 +1,15 @@
+./maker
+rm -rf canvasxpress-test
+rails new canvasxpress-test
+cd canvasxpress-test
+rails generate scaffold tester
+rake db:migrate
+echo 'gem "canvasxpress-rails", :path => "~/Projects/canvasxpress-rails"' >> Gemfile
+bundle install
+echo '//= require canvasXpress.min' >> app/assets/javascripts/application.js
+echo '//= require canvasXpress' >> app/assets/stylesheets/application.css
+cp ../tester.html app/views/testers/index.html.erb
+
+rails server
+# open http://localhost:3000/assets/canvasxpress
+
