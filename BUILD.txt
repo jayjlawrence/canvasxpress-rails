@@ -2,7 +2,7 @@ I haven't made this process beautiful but it works
 
 1 - obtain distribution package from http://canvasxpress.org/download.html
 2 - unpack in this directory so that you now have a "build" directory
-3 - run the ./maker script to make your new vendor/*/* files
+3 - run the ./build.me script to make your new vendor/*/* files
 4 - run the ./tester script to create a rails app and test that it works
      n.b. the tester script is for my OS X machine, YMMV
 
