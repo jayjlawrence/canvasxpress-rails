@@ -18,15 +18,22 @@ Or install it yourself as:
 
 ## Usage
 
-Add the canvasXpress js to your rails app by:
+Add the canvasXpress js to your rails app by adding
 
-echo '//= require canvasXpress.min' >> app/assets/javascripts/application.js
-# echo '//= require canvasXpress' >> app/assets/stylesheets/application.css 
+ //= require canvasXpress.min
+
+to app/assets/javascripts/application.js (or other as you wish)
+
+And
+
+ /* 
+  * require canvasXpress
+  */
+
+to app/assets/stylesheets/application.css 
 
 ## Contributing
 
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+I cannot commit to keeping this project 100% fresh so if you want to take it over ... just let me
+know and you're in charge.
+
